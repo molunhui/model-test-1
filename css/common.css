@@ -1,30 +1,32 @@
-
 /*header --->begin*/
 body {
   font-family: "微软雅黑";
 }
+
 .header {
   height: 72px;
   overflow: hidden;
   background: url("../img/header-bg.gif");
   position: relative;
 }
-.header h1{
+
+.header h1 {
   /*line-height: 1.2em;*/
-  background: url("../img/logo.jpg")no-repeat 0 0;
+  background: url("../img/logo.jpg") no-repeat 0 0;
   padding: 6px 0 8px 68px;
   /* top: 6px; */
   position: absolute;
   top: 6px;
   left: 215px;
 }
-.header a{
+
+.header a {
   text-decoration: none;
   color: #e5e5e5;
   font-size: 34px;
 }
 
-.header .navigate{
+.header .navigate {
   float: right;
 }
 
@@ -43,18 +45,21 @@ body {
 .header .navigate ul .current {
   height: 72px;
 }
+
 .header .navigate ul li:hover {
   cursor: pointer;
   height: 72px;
 }
-.navigate ul li a{
-  font-size:16px;
+
+.navigate ul li a {
+  font-size: 16px;
   color: #FFFFFF;
   height: 67px;
   line-height: 67px;
   font-size: 22px;
   padding: 0 20px;
 }
+
 .purple {
   background-color: #463E92;
 }
@@ -62,9 +67,11 @@ body {
 .blue {
   background-color: #018CD2;
 }
+
 .green {
   background-color: #83C11C;
 }
+
 .yellow {
   background-color: #FFC000;
 }
